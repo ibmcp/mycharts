@@ -27,7 +27,7 @@ spec:
         resources:
           requests:
             cpu: 200m
-            meory: 300Mi
+            memory: 300Mi
         env:
         - name: API_URL
           value: "http://academycluster.seo01.containers.appdomain.cloud/{{ .Values.username }}"
